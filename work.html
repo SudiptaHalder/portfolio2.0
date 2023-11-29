@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="work.css">
+    <script src="https://kit.fontawesome.com/1d90fe8c49.js" crossorigin="anonymous"></script>
+    <nav>
+        <img src="./images/chai-removebg-preview.png" alt="logo" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclink="closemenu()"></i>
+        </ul>
+        <img src="./images/moooon1.png" id = "icon" alt="">
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+   
+</head>
+<body>
+    <div>
+        
+    </div>
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/Eight Simple Tips and Tricks for Working With PDF Files.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/business.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Business Site</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/We Asked An Expert_ This Is Exactly How Often You Should Restart Your iPhone.jpg" alt="">
+                    <div class="layer">
+                        <h3>Destination</h3>
+                        <p>Website inspired by AirBNB.
+                            Visit Here.</p>
+                            <a href="https://sudiptahalder.github.io/Destination/"><i class="fa-solid fa-link"></i></a>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/sports.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Sports</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="./images/travel.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Travel Blog</h3>
+                        <p>The website help you to build your own business.
+                            </p>
+                            <a href="https://sudiptahalder.github.io/PikuBlog/"><i class="fa-solid fa-link"></i></a>
+                        
+                    </div>
+                    
+               
+                    
+                    
+                    
+                </div>
+                <div class="work">
+                    <img src="./images/Premium Vector _ Cute girl cartoon with laptop design illustration.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online shoping App</h3>
+                        <p>The website help you to build your own business.
+                            </p>
+                            <a href="https://sudiptahalder.github.io/ecommerse-site/"><i class="fa-solid fa-link"></i></a>
+                        
+                    </div>
+    </div>                
+                
+
+
+ <!-- footer -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> sudiptah2090@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>80880XXXXX</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sudipta-halder" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/piku_fs/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/SudiptaHalder/Destination/settings/pages"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+                <a href="./images/Sudipta Resume a.pdf" download class="btn btn2">Download resume</a>
+            </div>
+
+            <!-- music -->
+            <div class="contact-right">
+                <div class="wrapper">
+                    <div class="details">
+                        <div class="now-playing">PLAYING x OF y</div>
+                        <div class="track-art"></div>
+                        <div class="track-name">Track Name</div>
+                        <div class="track-artist">Track Artist</div>
+                    </div>
+         
+                    <div class="slider_container">
+                        <div class="current-time">00:00</div>
+                         <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                         <div class="total-duration">00:00</div>
+                    </div>
+         
+                    <div class="slider_container">
+                        <i class="fa fa-volume-down"></i>
+                         <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                         <i class="fa fa-volume-up"></i>
+                    </div>
+         
+                    <div class="buttons">
+                        <div class="random-track" onclick="randomTrack()">
+                            <i class="fas fa-random fa-2x" title="random"></i>
+                        </div>
+                        <div class="prev-track" onclick="prevTrack()">
+                             <i class="fa fa-step-backward fa-2x"></i>
+                         </div>
+                         <div class="playpause-track" onclick="playpauseTrack()">
+                             <i class="fa fa-play-circle fa-5x"></i>
+                         </div>
+                         <div class="next-track" onclick="nextTrack()">
+                             <i class="fa fa-step-forward fa-2x"></i>
+                         </div>
+                         <div class="repeat-track" onclick="repeatTrack()">
+                             <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                         </div>
+                    </div>
+         
+                     <div id="wave">
+                         <span class="stroke"></span>
+                         <span class="stroke"></span>
+                         <span class="stroke"></span>
+                         <span class="stroke"></span>
+                         <span class="stroke"></span>
+                         <span class="stroke"></span>
+                         <span class="stroke"></span>
+                     </div>  
+                </div>
+            </div>
+
+            
+            <!-- <div class="contact-right">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </nav> -->
+                <!-- <form  class="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Mesasge"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> -->
+                <span id ="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copywright">
+        <p>Copyright @ sudipta <i class="fa-solid fa-mug-hot"></i></p>
+    </div>
+</div>
+
+</body>
+</html>
